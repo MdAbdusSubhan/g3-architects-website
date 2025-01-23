@@ -111,6 +111,32 @@ main > section{
     font-weight: bold;
   }
 
+
+  /* features section related styles */
+
+.features{
+  gap: 100px;
+}
+
+  #features-section-title{
+    border-left: 2px solid #FF900E;
+    padding-left: 20px;
+    margin-top: 0;
+  }
+
+  .card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+  }
+
   /* some facts related styles */
 
   .fact-container{
