@@ -61,7 +61,7 @@ main > section{
     text-decoration: none;
     font-weight: 500;
   }
-  .navbar, .bannar, main, .some-facts{
+  .navbar, .bannar, main, .some-facts, .copyright{
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -137,6 +137,20 @@ main > section{
     margin-bottom: 20px;
   }
 
+  #experience-badge{
+    padding: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -80px;
+    margin-top: -80px;
+  }
+  #experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+.feture-architect img{
+  width: 100%;
+}
   /* some facts related styles */
 
   .fact-container{
@@ -181,11 +195,24 @@ main > section{
 .sponsor-companies img{
   filter: grayscale(100%);
 }
+
+/* footer style */
+.copyright{
+  margin-top: 130px;
+  margin-bottom: 130px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.copyright div{
+  padding: 50px 50px;
+  background-color: #FFF4E7;
+}
   /* responsive media query */
   @media screen and (max-width:576px) {
     .navbar,
      .nav-links,
-     .team {
+     .team,
+     .features {
         flex-direction: column;
     }
 
@@ -202,5 +229,17 @@ main > section{
     }
     .feature{
         margin-left: 20px;
+    }
+    #experience-badge{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    /* .copyright{
+      max-width: 100%;
+    } */
+    .copyright div{
+      display: flex;
+      text-align: none;
+      padding: none;
     }
   }
